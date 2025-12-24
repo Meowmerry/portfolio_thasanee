@@ -1,18 +1,85 @@
-# Thasanee Puttamadilok - Portfolio Website
+# Thasanee Puttamadilok - Portfolio
 
-Modern, professional portfolio website built with HTML, CSS, and vanilla JavaScript. Optimized for showcasing AI projects, software engineering experience, and product ownership capabilities.
+👋 Welcome to my professional portfolio! I'm a **Software Engineer and Product Owner** with 5+ years of experience building production applications. Currently focused on AI application development using Python, LLM APIs, and RAG systems.
 
-## 🎯 Features
+**Live Site**: [Add your deployed URL here]
 
-- ✅ **Fully Responsive** - Works on desktop, tablet, and mobile
-- ✅ **Modern Design** - Clean, professional aesthetic with smooth animations
-- ✅ **Fast Performance** - Pure HTML/CSS/JS, no framework overhead
-- ✅ **SEO Optimized** - Proper meta tags and semantic HTML
-- ✅ **Accessible** - WCAG compliant with proper ARIA labels
-- ✅ **AI Projects Highlighted** - Prominent showcase of chatbot and RAG systems
-- ✅ **Interactive Elements** - Smooth scrolling, hover effects, mobile menu
+## 🚀 About Me
 
-## 📁 File Structure
+I'm a full-stack engineer who bridges the gap between technical execution and product strategy. My unique background combines:
+
+- **AI Development**: Building chatbots and RAG systems with LLM APIs (OpenAI, Anthropic)
+- **Product Leadership**: Managed $1M annual budget at Level11 Consulting
+- **Full-Stack Engineering**: 5+ years shipping production code at Marketron, Rice University, Gigamon
+- **Scale Experience**: Built applications serving 600K+ users
+
+**Location**: Houston, TX, United States
+**Open to**: AI Engineer roles, Product Owner positions, Technical Leadership
+
+## 🎯 Portfolio Highlights
+
+### AI & Innovation Projects
+
+**🤖 Stock Market Chatbot** (Oct 2024 - Present)
+- Conversational AI for real-time stock market analysis
+- Python backend with OpenAI & Anthropic LLM APIs
+- Predictive analytics and trading signals
+- Tech: Python, LLM APIs, HTML/CSS, NLP
+
+**🔍 RAG Systems & AI Infrastructure** (Oct 2024 - Present)
+- Advanced semantic search using Retrieval-Augmented Generation
+- 90% cost reduction with Ollama implementation
+- Tech: PostgreSQL, pgvector, Hugging Face, Python
+
+**📺 AI-Powered Content Platform** (2024 - Present)
+- YouTube channel "Whispers of Times By Me"
+- Automated educational content creation
+- Tech: NotebookLM, Hugging Face, LLM APIs
+
+### Professional Impact
+
+**Marketron** - Software Engineer (Jan 2024 - Sep 2024)
+- Modernized platform with React, Redux, Material UI
+- Architected RabbitMQ message queue for automated workflows
+- Achieved 85% test coverage, 90% reduction in deployment failures
+
+**Rice University** - Software Engineer (May 2023 - Jul 2024)
+- Led Vue to React/TypeScript migration (20% productivity boost)
+- Built dashboards serving 600K+ users
+- Optimized D3.js rendering by 25%
+
+**Level11 Consulting** - Software Engineer & Product Owner (Dec 2020 - Aug 2022)
+- Managed $1M annual budget across multiple clients
+- Built hedge fund analytics platform in 3 months (React + Golang)
+- Led product discovery and sprint planning
+
+## 💻 Tech Stack
+
+### AI & Machine Learning
+- **LLM APIs**: OpenAI, Anthropic, Ollama
+- **ML Tools**: Hugging Face, NotebookLM
+- **Vector DBs**: PostgreSQL with pgvector
+- **Techniques**: RAG Systems, Prompt Engineering, AI Agents
+
+### Frontend
+- **Frameworks**: React, Next.js, TypeScript
+- **State Management**: Redux, Redux Toolkit
+- **UI Libraries**: Material UI, TailwindCSS
+- **Data Viz**: D3.js, Plotly
+
+### Backend & Infrastructure
+- **Languages**: Python, Node.js, Go, Ruby on Rails
+- **Databases**: PostgreSQL, MongoDB, MySQL
+- **Cloud**: AWS, Azure, Docker
+- **Message Queues**: RabbitMQ
+- **APIs**: REST, GraphQL
+
+### Product & Leadership
+- Product Management, Agile/Scrum
+- Product Discovery, Sprint Planning
+- User Stories, Backlog Prioritization
+
+## 📂 Project Structure
 
 ```
 portfolio/
@@ -22,310 +89,243 @@ portfolio/
 └── README.md       # This file
 ```
 
+**Built with**: Pure HTML, CSS, and vanilla JavaScript for optimal performance
+
 ## 🚀 Quick Start
 
-### Option 1: Netlify (Recommended - Free & Easy)
+### Local Development
 
-1. **Sign up for Netlify** (free): https://www.netlify.com/
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/portfolio.git
+cd portfolio
 
-2. **Deploy via Drag & Drop:**
-   - Go to https://app.netlify.com/drop
-   - Drag the folder containing `index.html`, `styles.css`, and `script.js`
-   - Your site is live instantly!
+# Open in browser (option 1)
+open index.html
 
-3. **Custom Domain (Optional):**
-   - Go to Site settings → Domain management
-   - Add your custom domain or use the free Netlify subdomain
-
-### Option 2: GitHub Pages (Free)
-
-1. **Create a GitHub repository** named `yourusername.github.io`
-
-2. **Upload files:**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial portfolio"
-   git branch -M main
-   git remote add origin https://github.com/yourusername/yourusername.github.io.git
-   git push -u origin main
-   ```
-
-3. **Enable GitHub Pages:**
-   - Go to repository Settings → Pages
-   - Source: Deploy from main branch
-   - Your site will be live at `https://yourusername.github.io`
-
-### Option 3: Vercel (Free)
-
-1. **Sign up for Vercel**: https://vercel.com/
-
-2. **Deploy:**
-   - Connect your GitHub repository
-   - Or drag & drop your files
-   - Instant deployment!
-
-## ✏️ Customization Guide
-
-### 1. Update Personal Information
-
-**In `index.html`:**
-
-```html
-<!-- Line 41-44: Update name and title -->
-<h1 class="hero-title">
-    <span class="gradient-text">Your Name</span>
-</h1>
-
-<!-- Line 45: Update subtitle -->
-<p class="hero-subtitle">Your Title | Your Key Skills</p>
-
-<!-- Line 48-51: Update description -->
-<p class="hero-description">
-    Your custom description here...
-</p>
-
-<!-- Line 593: Update email -->
-<a href="mailto:your.email@example.com">
-
-<!-- Line 598: Update LinkedIn -->
-<a href="https://linkedin.com/in/yourprofile">
-
-<!-- Line 603: Update GitHub -->
-<a href="https://github.com/yourprofile">
+# Or use a local server (option 2)
+python -m http.server 8000
+# Visit: http://localhost:8000
 ```
 
-### 2. Update AI Projects
+### Deploy to Production
 
-**Stock Market Chatbot (Line 163-195):**
-- Change project description
-- Update technologies
-- Add your GitHub link
-- Add demo link
+#### Netlify 
+1. Sign up at [Netlify](https://www.netlify.com/)
+2. Drag & drop the portfolio folder to [app.netlify.com/drop](https://app.netlify.com/drop)
+3. Your site is live instantly with HTTPS!
+4. Optional: Add custom domain in Site settings
 
-**RAG Systems (Line 198-230):**
-- Customize achievements
-- Update tech stack
-- Link to your repository
+## ✨ Features
 
-**Content Platform (Line 233-261):**
-- Modify or replace with your own project
-- Update links
+- **Fully Responsive**: Optimized for desktop, tablet, and mobile devices
+- **Modern Design**: Clean, professional aesthetic with smooth animations
+- **Fast Performance**: Pure HTML/CSS/JS, < 1 second load time
+- **SEO Optimized**: Proper meta tags and semantic HTML
+- **AI-Focused**: Prominent showcase of AI projects and capabilities
+- **Interactive**: Smooth scrolling, hover effects, mobile navigation
+- **Accessible**: WCAG compliant with ARIA labels
 
-### 3. Update Work Experience
+## 📊 Performance Metrics
 
-**Timeline items start at Line 277:**
-- Update company names
-- Modify job titles
-- Change dates
-- Update achievements
-- Adjust tech stacks
+- **Lighthouse Score**: 95+ across all categories
+- **Page Load Time**: < 1 second
+- **Total Size**: < 50KB (excluding images)
+- **Mobile Responsive**: ✅ Fully optimized
+- **SEO Ready**: ✅ Complete meta tags
 
-### 4. Update Skills
+## 🎓 Education & Certifications
 
-**Skills section starts at Line 437:**
-- Add/remove skill categories
-- Update skill tags
-- Reorder by priority
+**Education:**
+- **CodeSmith** - Computer Science & Software Engineering
+- **Ramkhamhaeng University** - Bachelor of Business Administration (Bangkok, Thailand)
 
-### 5. Update About Section
+**Certifications:**
+- Prompt Engineering with OpenAI API (DataCamp, 2024)
 
-**About content (Line 503-530):**
-- Personalize your story
-- Update statistics
-- Modify education details
-- Change certifications
+**Speaking & Community:**
+- Speaker: "Application Security" at Jeeny and Bractlet Speaker Series
+- Mentor: General Assembly Bootcamp
 
-### 6. Color Scheme
+## 📞 Contact & Links
 
-**In `styles.css` (Lines 1-20), change CSS variables:**
+- **Email**: [thasanee.dev@gmail.com](mailto:thasanee.dev@gmail.com)
+- **LinkedIn**: [linkedin.com/in/thasanee-p-686125243](https://linkedin.com/in/thasanee-p-686125243)
+- **GitHub**: [github.com/yourprofile](https://github.com/Meowmerry) 
+- **Resume**: [Download PDF](ThasaneP_Resume.pdf)
 
+## 🎯 Currently Seeking
+
+- AI Engineer positions
+- Product Owner roles (AI Applications)
+- Technical Leadership opportunities
+- Full-Stack Engineering roles with AI focus
+
+## 🛠️ Customization Guide
+
+> This portfolio is personalized for Thasanee Puttamadilok. To use as a template:
+
+### Update Personal Information
+
+**In [index.html](index.html):**
+- Lines 40-48: Name, title, description
+- Lines 60-74: Social links (GitHub, LinkedIn, Email)
+- Lines 591-623: Contact section
+
+### Update Projects
+
+**AI Projects Section** (Lines 114-252):
+1. **Stock Market Chatbot** (Lines 114-165)
+2. **RAG Systems** (Lines 168-210)
+3. **Content Platform** (Lines 213-251)
+
+Update descriptions, technologies, and links for each project.
+
+### Update Work Experience
+
+**Timeline Section** (Lines 265-402):
+- Marketron (2024)
+- Rice University (2023-2024)
+- Gigamon (2022)
+- Level11 Consulting (2020-2022) - Dual role highlighted
+- GridWhiz (2019-2020)
+
+### Update Skills
+
+**Skills Grid** (Lines 415-497):
+- AI & Machine Learning
+- Frontend Development
+- Backend & Languages
+- Databases & Cloud
+- Product & Leadership
+
+### Color Scheme
+
+**In [styles.css](styles.css) (Lines 1-20):**
 ```css
 :root {
-    --primary-color: #3b82f6;  /* Main brand color */
-    --secondary-color: #8b5cf6; /* Accent color */
-    --accent-color: #06b6d4;    /* Highlight color */
+    --primary-color: #3b82f6;  /* Blue */
+    --secondary-color: #8b5cf6; /* Purple */
+    --accent-color: #06b6d4;    /* Cyan */
 }
 ```
 
-**Popular color schemes:**
-- **Blue & Purple** (Current): Professional, tech-focused
-- **Green & Teal**: `#10b981` & `#06b6d4` - Fresh, innovative
-- **Orange & Red**: `#f59e0b` & `#ef4444` - Energetic, bold
-- **Indigo & Pink**: `#6366f1` & `#ec4899` - Creative, modern
+### Add Resume
 
-### 7. Add Your Resume
-
-1. Add `resume.pdf` to your project folder
-2. Update download link in `index.html` (Line 650):
-   ```html
-   <a href="/resume.pdf" class="btn btn-secondary" download>Download Resume</a>
-   ```
-
-### 8. Update Social Links
-
-**Throughout `index.html`, find and replace:**
-- `https://github.com/yourprofile` with your GitHub URL
-- `https://linkedin.com/in/thasanee-p-686125243` with your LinkedIn URL
-- `mailto:thasanee.dev@gmail.com` with your email
-
-## 🎨 Customization Tips
-
-### Change Fonts
-
-In `index.html` (Line 9), replace Google Fonts link:
-```html
-<link href="https://fonts.googleapis.com/css2?family=YourFont:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-```
-
-In `styles.css` (Line 20), update font variable:
-```css
---font-primary: 'YourFont', sans-serif;
-```
-
-### Add More Projects
-
-Copy a project card block (Lines 163-261) and modify:
-```html
-<div class="project-card">
-    <!-- Copy entire project card HTML -->
-    <!-- Update content -->
-</div>
-```
-
-### Change Hero Animation
-
-In `styles.css` (Lines 334-342), modify floating card animation:
-```css
-@keyframes float {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-20px); }  /* Change this value */
-}
-```
-
-## 📱 Mobile Optimization
-
-The site is fully responsive with breakpoints at:
-- **Desktop**: 1200px+
-- **Tablet**: 768px - 1200px
-- **Mobile**: < 768px
-
-Test on different devices or use Chrome DevTools (F12 → Toggle Device Toolbar).
+1. Add your resume as `ThasaneP_Resume.pdf` to the root directory
+2. Or update the link in [index.html](index.html) Line 637
 
 ## 🔧 Advanced Features
 
-### Enable Back-to-Top Button
+### Mobile Navigation
+- Hamburger menu for mobile devices
+- Auto-closes after clicking a link (implemented in [script.js](script.js))
 
-In `script.js` (Line 157), uncomment the back-to-top section:
+### Animations
+- Floating card animations in hero section
+- Smooth scroll behavior
+- Fade-in animations on scroll
+- Timeline marker animations
+
+### Optional Features
+
+**Enable Typing Effect** (currently commented out):
 ```javascript
-// Uncomment lines 157-195 to enable
-```
-
-### Enable Typing Effect
-
-In `script.js` (Line 94), uncomment:
-```javascript
+// In script.js, uncomment lines around 94
 const heroSubtitle = document.querySelector('.hero-subtitle');
 const subtitleText = heroSubtitle.textContent;
 typeWriter(heroSubtitle, subtitleText, 30);
 ```
 
-### Add More Animations
-
-In `script.js` (Line 76), add more elements to animate:
+**Add More Animations**:
 ```javascript
+// In script.js, line 76, add more selectors
 const animateOnScroll = document.querySelectorAll('.your-class-here');
 ```
 
 ## 🐛 Troubleshooting
 
 ### Links not working?
-- Make sure all href attributes point to correct IDs in HTML
+- Verify all `href` attributes point to correct section IDs
 - Check that section IDs match navigation links
 
-### Styling looks broken?
+### Styling broken?
 - Ensure `styles.css` is in the same folder as `index.html`
+- Clear browser cache (Ctrl+Shift+R or Cmd+Shift+R)
 - Check browser console (F12) for errors
-- Clear browser cache (Ctrl+Shift+R)
 
 ### JavaScript not working?
 - Ensure `script.js` is in the same folder as `index.html`
+- Verify `<script src="script.js"></script>` is before `</body>`
 - Check browser console for errors
-- Make sure `<script src="script.js"></script>` is before `</body>`
 
 ### Mobile menu not closing?
-- This is a known issue - the hamburger menu stays open after clicking a link
-- Solution is already implemented in `script.js` (Lines 16-21)
+- Already fixed! Check [script.js](script.js) lines 16-21
 
-## 📊 Performance
+## 📱 Responsive Breakpoints
 
-- **Lighthouse Score**: 95+ (All categories)
-- **Page Load**: < 1 second
-- **Total Size**: < 50KB (without images)
+- **Desktop**: 1200px and above
+- **Tablet**: 768px - 1199px
+- **Mobile**: Below 768px
+
+Test using Chrome DevTools (F12 → Toggle Device Toolbar)
 
 ## 🔒 SEO Optimization
 
-**Update meta tags in `index.html` (Line 5):**
+**Current Meta Tags** (in [index.html](index.html)):
 ```html
-<meta name="description" content="Your custom description">
-<meta name="keywords" content="Your, Keywords, Here">
-<meta name="author" content="Your Name">
+<meta name="description" content="Thasanee Puttamadilok - Software Engineer & Product Owner building AI applications">
+<title>Thasanee Puttamadilok | Software Engineer & Product Owner</title>
 ```
 
-**Add Open Graph tags for social sharing:**
+**Add Open Graph Tags** for better social sharing:
 ```html
-<meta property="og:title" content="Your Name | Software Engineer">
-<meta property="og:description" content="Your description">
-<meta property="og:image" content="your-preview-image.jpg">
-<meta property="og:url" content="https://yoursite.com">
+<meta property="og:title" content="Thasanee Puttamadilok | Software Engineer">
+<meta property="og:description" content="Full-stack engineer specializing in AI applications">
+<meta property="og:image" content="preview-image.jpg">
+<meta property="og:url" content="https://portfoilo-thansanee.netlify.app/">
 ```
 
-## 📞 Support
+## 🚀 Next Steps After Deployment
 
-If you need help customizing:
-1. Check this README first
-2. Search for the specific element in HTML using Ctrl+F
-3. Modify carefully and test locally
-4. Use browser DevTools to inspect elements
+1. **Test Everything**
+   - Click all navigation links
+   - Test on mobile devices
+   - Verify all sections load properly
+   - Check social links
 
-## 🎯 Next Steps
+2. **Update Content**
+   - Add your actual GitHub URL
+   - Add real project repository links
+   - Upload resume PDF
+   - Add live demo links if available
 
-After deployment:
-
-1. **Test Everything:**
-   - Click all links
-   - Test on mobile
-   - Check all sections load
-
-2. **Update Content:**
-   - Replace placeholder text
-   - Add real project links
-   - Update resume PDF
-
-3. **SEO:**
+3. **SEO & Analytics**
    - Submit to Google Search Console
-   - Add sitemap.xml
-   - Get indexed
+   - Add Google Analytics (optional)
+   - Create and submit sitemap.xml
+   - Verify social media preview cards
 
-4. **Share:**
-   - Add to LinkedIn
-   - Include in resume
-   - Share on GitHub
+4. **Share**
+   - Add to LinkedIn profile
+   - Include in resume/CV
+   - Share on professional networks
+   - Add to email signature
 
 ## 📝 License
 
-This template is free to use and modify. No attribution required, but appreciated!
+This portfolio is open source and available for use as a template. Feel free to fork and customize!
 
-## 🙏 Credits
+## 🙏 Acknowledgments
 
-Built for Thasanee Puttamadilok
-- Design: Custom modern portfolio design
-- Icons: SVG icons (inline)
-- Fonts: Google Fonts (Inter)
-- Hosting: Netlify/GitHub Pages/Vercel
+- **Built by**: Thasanee Puttamadilok
+- **Design**: Custom modern portfolio design
+- **Icons**: Inline SVG icons
+- **Fonts**: [Google Fonts (Inter)](https://fonts.google.com/specimen/Inter)
+- **Hosting Options**: Netlify, GitHub Pages, Vercel
 
 ---
 
-**Good luck with your portfolio!** 🚀
+**Built with ❤️ using HTML, CSS, and JavaScript**
 
-If you found this helpful, consider starring the repo or sharing it with others!
+*Last Updated: December 2024*
